@@ -1,3 +1,14 @@
+* {
+  /* 1. here we decide to set the value of padding and margin to 0 because in chrome by default the margin and padding have value different of 0. 
+     and after we precise the box-sizing value*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
 body {
   font-family: Helvetica Neue, Arial;
   font-size: 18px;
@@ -11,11 +22,16 @@ h1, h2 {
 /* here we formate element h1 */
 h1 {
   font-size: 40px;
+  /* 2. like we need some margin in the main heading : margin is white space between box 
+     and we want margin between the h1 and h2 heading */
+  margin-bottom: 20px;
 }
 
 /* here we formate element h1 */
 h2 {
   font-size: 25px;
+  /* 3. here we see that wze dont have space between h2 element and the following paragraph */
+  margin-bottom: 10px;
 }
 
 /* add rule for selecter p */
@@ -27,6 +43,8 @@ h2 {
 /* for reference an class we use a dot */
 .main-text {
   text-align: justify  ;
+  /* 4. now we want to put space after the main paragraph */
+  margin-bottom: 20px;
 }
 /* for reference an id we use a # */
 /* #author-text { */
