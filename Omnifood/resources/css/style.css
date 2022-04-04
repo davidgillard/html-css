@@ -83,6 +83,7 @@ h2:after {
 .long-copy {
   line-height: 145%;
   width: 70%;
+  text-align: justify;
   margin-left: 15%;
 }
 
@@ -193,4 +194,29 @@ header {
 .main-nav li a:hover, 
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* ----------------------------------------- */
+/* MEALS 
+/* ----------------------------------------- */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+} 
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+} 
+
+.meals-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meals-photo img {
+  width: 100%;
+  height: auto;
 }
